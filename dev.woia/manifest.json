@@ -1,0 +1,22 @@
+{
+  "schema": "dev.woia.provider-manifest/v1",
+  "version": "0.5.0",
+  "authoring_profile": "thin",
+  "department": "software",
+  "capability": "discovery",
+  "skill": "discovery",
+  "source_lineage": {
+    "repository": "Turpial-AI-Academy/discovery-agent-plugin",
+    "version": "1.0.1",
+    "commit": "bb2fd0472c924474d4e1d42db77637ce610ad8a2"
+  },
+  "migrated_portable_paths": [
+    "skills/discovery/SKILL.md",
+    "skills/discovery/assets/01-DISCOVERY.template.md",
+    "skills/discovery/assets/README.md",
+    "skills/discovery/references/BOUNDARIES.md",
+    "skills/discovery/references/DISCOVERY_STANDARD.md",
+    "skills/discovery/references/EVIDENCE_MODEL.md",
+    "skills/discovery/references/README.md"
+  ]
+}
