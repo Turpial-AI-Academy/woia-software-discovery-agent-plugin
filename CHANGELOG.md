@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Restore capability-specific Discovery regressions for centralized thin certification.
+
 ## 0.5.0 - 2026-10-03
 
 - Establish the WOIA v0.5.0 provider lineage for `discovery`.
