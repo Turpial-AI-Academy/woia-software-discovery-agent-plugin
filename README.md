@@ -4,7 +4,7 @@ WOIA Software provider for the `discovery` capability.
 
 Portable capability content is migrated preserve-first from `Turpial-AI-Academy/discovery-agent-plugin@1.0.1` and remains independently usable outside the WOIA Software orchestrator.
 
-- Plugin version: `0.5.0`
+- Plugin version: `0.5.1`
 - Primary skill: `$discovery`
 - Department: Software
 - Authoring profile: thin
