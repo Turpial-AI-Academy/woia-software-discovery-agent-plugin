@@ -7,6 +7,13 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 
 const skillRoot = path.join(ROOT, "skills", "discovery");
 
+test("discovery preserves standalone use and avoids downstream artifact ownership", async () => {
+  const skill = await readFile(path.join(skillRoot, "SKILL.md"), "utf8");
+  const boundaries = await readFile(path.join(skillRoot, "references", "BOUNDARIES.md"), "utf8");
+  assert.match(boundaries, /independently usable and does not require ASPS/i);
+  assert.match(skill, /Do not edit business rules, requirements, UX, stack, architecture, planning, code, tests, or deployment artifacts as part of Discovery unless the caller explicitly combines capabilities/i);
+});
+
 test("skill preserves DISCOVER -> DECIDE -> IMPLEMENT -> VALIDATE -> REPORT order", async () => {
   const skill = await readFile(path.join(skillRoot, "SKILL.md"), "utf8");
   const discover = skill.indexOf("## Discover");

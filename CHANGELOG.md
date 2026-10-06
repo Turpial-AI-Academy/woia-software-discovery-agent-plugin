@@ -2,6 +2,8 @@
 
 ## 0.5.1 - 2026-10-04
 
+- Preserve portable domain invariants from the original suite without obsolete repository authoring assertions.
+
 - Restore capability-specific Discovery regressions for centralized thin certification.
 
 ## 0.5.0 - 2026-10-03
