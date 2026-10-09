@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works with greenfield ideas and existing software repositories; repository-aware discovery requires access to the relevant project sources.
 metadata:
   author: Turpial AI Academy
-  version: "0.5.6"
+  version: "0.5.7"
 ---
 
 # discovery
