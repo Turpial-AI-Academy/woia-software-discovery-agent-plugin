@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "woia-software-discovery",
-  "version": "0.5.1",
+  "version": "0.5.6",
   "description": "Reusable software project discovery capability that clarifies the problem, users, expected outcome, evidence, assumptions, and immediate scope without assuming a technical solution.",
   "author": {
     "name": "Turpial AI Academy",
