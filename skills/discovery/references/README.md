@@ -6,4 +6,4 @@ Load these references on demand from `SKILL.md`.
 - [EVIDENCE_MODEL.md](EVIDENCE_MODEL.md): evidence classes and rules for claims, assumptions, and unknowns.
 - [BOUNDARIES.md](BOUNDARIES.md): what Discovery owns and what must be deferred to downstream capabilities.
 
-These references define a standalone discovery capability. They do not require ASPS or another Turpial plugin at runtime.
+These references define a standalone discovery capability. Its runtime instructions are self-contained and usable independently of other Turpial plugins.

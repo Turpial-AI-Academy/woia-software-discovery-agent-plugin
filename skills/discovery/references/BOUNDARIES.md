@@ -64,7 +64,7 @@ Do not reject useful solution context; simply avoid confusing it with the discov
 
 ## Standalone and contract use
 
-This plugin is independently usable and does not require ASPS.
+This plugin is independently usable.
 
 When orchestrated under the `discovery/v1` contract, its required output is:
 
